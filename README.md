@@ -61,36 +61,6 @@ Tyre model, on unseen races, after removing driver and race-lap effects: lap-tim
    data from other seasons for pit loss and stint limits.
 5. **Demo** (`app.py`): Streamlit app.
 
-## Quick start
-
-Python 3.10+.
-
-```bash
-pip install -r requirements.txt
-
-# 1. download seasons (about 5 minutes each; the free API is rate limited)
-python load_season.py 2023
-python load_season.py 2024
-python load_season.py 2025
-
-# 2. fit the tyre model and summarise circuits (these two files are what the demo needs)
-python fit_degradation_fe.py
-python build_circuit_profiles.py
-
-# 3. try it
-python simulate_strategy.py Monza 2025
-streamlit run app.py
-
-# 4. back-test (clean out-of-sample version)
-python fit_degradation_fe.py 2025
-python backtest_strategy.py 2025 --holdout
-```
-
-Commit `models/` (small JSON files) so the demo runs without the raw data. To deploy free, push to
-GitHub and point [Streamlit Community Cloud](https://streamlit.io/cloud) at `app.py`.
-
-Run the tests with `pip install -r requirements-dev.txt` then `pytest`.
-
 ## Limitations
 
 - One car alone on track: no traffic, opponents or undercuts.
@@ -99,14 +69,6 @@ Run the tests with `pip install -r requirements-dev.txt` then `pytest`.
 - Fixed pre-planned strategies only, with at most 2 stops considered when ranking.
 - Dry races only.
 - Soft-tyre drop-off ("cliff") is not modelled; teams pit before it, so the data cannot show it.
-
-## Roadmap
-
-- [ ] Safety-car and virtual-safety-car reactions (pit if a safety car appears and tyres are old enough)
-- [ ] Model the soft-tyre cliff
-- [ ] A racing game environment where a reinforcement-learning agent learns to drive, with this engine
-      as the strategy agent
-- [ ] Setup optimisation for Formula Student and sim-racing users
 
 ## Data and licence
 
