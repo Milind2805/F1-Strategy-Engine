@@ -1,0 +1,805 @@
+{
+  "global": {
+    "fuel_s_per_lap": -0.05084857684305316,
+    "compounds": {
+      "SOFT": {
+        "lin": 0.0601029586130088,
+        "quad": -0.00017485964436815158,
+        "max_age_p95": 24.0
+      },
+      "MEDIUM": {
+        "lin": 0.06226874455021538,
+        "quad": -0.0007324923365398493,
+        "max_age_p95": 29.0
+      },
+      "HARD": {
+        "lin": 0.05858627963167165,
+        "quad": -0.0005942136426589639,
+        "max_age_p95": 38.0
+      }
+    }
+  },
+  "circuits": {
+    "Austin": {
+      "fuel_s_per_lap": -0.05509795692397745,
+      "pace_offset_vs_soft": {
+        "SOFT": 0.0,
+        "MEDIUM": 0.15043983367866787,
+        "HARD": 0.10686761728210242
+      },
+      "compounds": {
+        "SOFT": {
+          "lin": 0.06022003270144652,
+          "quad": -0.0001675087647600029,
+          "max_age_p95": 26.0,
+          "n_laps": 439,
+          "reliable": true
+        },
+        "MEDIUM": {
+          "lin": 0.06134091727757216,
+          "quad": -0.0007698107966596862,
+          "max_age_p95": 27.0,
+          "n_laps": 1388,
+          "reliable": true
+        },
+        "HARD": {
+          "lin": 0.05887060290093201,
+          "quad": -0.0006030860227738549,
+          "max_age_p95": 30.0,
+          "n_laps": 972,
+          "reliable": true
+        }
+      }
+    },
+    "Baku": {
+      "fuel_s_per_lap": -0.05590549671055687,
+      "pace_offset_vs_soft": {
+        "SOFT": 0.0,
+        "MEDIUM": 0.1571695283036011,
+        "HARD": 0.10170111021326272
+      },
+      "compounds": {
+        "SOFT": {
+          "lin": 0.060101355118980355,
+          "quad": -0.00017487567930843604,
+          "max_age_p95": 24.0,
+          "n_laps": 1,
+          "reliable": false
+        },
+        "MEDIUM": {
+          "lin": 0.061493111748476985,
+          "quad": -0.0009168268196524972,
+          "max_age_p95": 26.0,
+          "n_laps": 624,
+          "reliable": true
+        },
+        "HARD": {
+          "lin": 0.057056623644664475,
+          "quad": -0.0010521230343022963,
+          "max_age_p95": 39.0,
+          "n_laps": 1921,
+          "reliable": true
+        }
+      }
+    },
+    "Barcelona": {
+      "fuel_s_per_lap": -0.05152780708803583,
+      "pace_offset_vs_soft": {
+        "SOFT": 0.0,
+        "MEDIUM": 0.15488463924122972,
+        "HARD": 0.09875443932865022
+      },
+      "compounds": {
+        "SOFT": {
+          "lin": 0.060959059671157,
+          "quad": -1.287015683834223e-05,
+          "max_age_p95": 20.0,
+          "n_laps": 1322,
+          "reliable": true
+        },
+        "MEDIUM": {
+          "lin": 0.06281038047683254,
+          "quad": -0.0005870856239214143,
+          "max_age_p95": 24.0,
+          "n_laps": 1233,
+          "reliable": true
+        },
+        "HARD": {
+          "lin": 0.059444667006486485,
+          "quad": -0.0003268221294643819,
+          "max_age_p95": 27.0,
+          "n_laps": 861,
+          "reliable": true
+        }
+      }
+    },
+    "Budapest": {
+      "fuel_s_per_lap": -0.048455416745130944,
+      "pace_offset_vs_soft": {
+        "SOFT": 0.0,
+        "MEDIUM": 0.157465808586742,
+        "HARD": 0.09940330031919162
+      },
+      "compounds": {
+        "SOFT": {
+          "lin": 0.06015551869673048,
+          "quad": -0.000172694004217429,
+          "max_age_p95": 24.0,
+          "n_laps": 104,
+          "reliable": false
+        },
+        "MEDIUM": {
+          "lin": 0.06277532700885685,
+          "quad": -0.0004598205546689834,
+          "max_age_p95": 29.0,
+          "n_laps": 1328,
+          "reliable": true
+        },
+        "HARD": {
+          "lin": 0.060015954330655916,
+          "quad": -0.00013129466922784237,
+          "max_age_p95": 32.0,
+          "n_laps": 2259,
+          "reliable": true
+        }
+      }
+    },
+    "Imola": {
+      "fuel_s_per_lap": -0.046353502751976416,
+      "pace_offset_vs_soft": {
+        "SOFT": 0.0,
+        "MEDIUM": 0.15324535927568658,
+        "HARD": 0.10533783444230894
+      },
+      "compounds": {
+        "SOFT": {
+          "lin": 0.06009187345463248,
+          "quad": -0.00017554388697639905,
+          "max_age_p95": 24.0,
+          "n_laps": 13,
+          "reliable": false
+        },
+        "MEDIUM": {
+          "lin": 0.06254407808041783,
+          "quad": -0.0005764515556862789,
+          "max_age_p95": 27.949999999999932,
+          "n_laps": 782,
+          "reliable": true
+        },
+        "HARD": {
+          "lin": 0.05994343639742341,
+          "quad": -0.00017096114125119918,
+          "max_age_p95": 36.0,
+          "n_laps": 1327,
+          "reliable": true
+        }
+      }
+    },
+    "Jeddah": {
+      "fuel_s_per_lap": -0.055724271628980346,
+      "pace_offset_vs_soft": {
+        "SOFT": 0.0,
+        "MEDIUM": 0.16022928164497274,
+        "HARD": 0.09918627805743783
+      },
+      "compounds": {
+        "SOFT": {
+          "lin": 0.060009663463852926,
+          "quad": -0.0001841003998834997,
+          "max_age_p95": 24.0,
+          "n_laps": 82,
+          "reliable": false
+        },
+        "MEDIUM": {
+          "lin": 0.06127940644405365,
+          "quad": -0.0009994491361513588,
+          "max_age_p95": 28.549999999999955,
+          "n_laps": 750,
+          "reliable": true
+        },
+        "HARD": {
+          "lin": 0.05654409600906482,
+          "quad": -0.0011312838950547728,
+          "max_age_p95": 38.0,
+          "n_laps": 1604,
+          "reliable": true
+        }
+      }
+    },
+    "Las_Vegas": {
+      "fuel_s_per_lap": -0.05901690515787143,
+      "pace_offset_vs_soft": {
+        "SOFT": 0.0,
+        "MEDIUM": 0.16427869583309995,
+        "HARD": 0.09411416687459334
+      },
+      "compounds": {
+        "SOFT": {
+          "lin": 0.06012578369460942,
+          "quad": -0.00017324993811552363,
+          "max_age_p95": 24.0,
+          "n_laps": 9,
+          "reliable": false
+        },
+        "MEDIUM": {
+          "lin": 0.06249647007252141,
+          "quad": -0.0007500424698104401,
+          "max_age_p95": 20.0,
+          "n_laps": 573,
+          "reliable": true
+        },
+        "HARD": {
+          "lin": 0.05631744875634498,
+          "quad": -0.0009743708320763698,
+          "max_age_p95": 28.0,
+          "n_laps": 1743,
+          "reliable": true
+        }
+      }
+    },
+    "Lusail": {
+      "fuel_s_per_lap": -0.05955242075127703,
+      "pace_offset_vs_soft": {
+        "SOFT": 0.0,
+        "MEDIUM": 0.16932177100148108,
+        "HARD": 0.08439555776176702
+      },
+      "compounds": {
+        "SOFT": {
+          "lin": 0.060530696429824914,
+          "quad": -0.0001305104870121502,
+          "max_age_p95": 24.0,
+          "n_laps": 85,
+          "reliable": false
+        },
+        "MEDIUM": {
+          "lin": 0.06087634312755943,
+          "quad": -0.0012921310943939477,
+          "max_age_p95": 28.0,
+          "n_laps": 1481,
+          "reliable": true
+        },
+        "HARD": {
+          "lin": 0.05640252544825824,
+          "quad": -0.0009510480961983568,
+          "max_age_p95": 22.0,
+          "n_laps": 856,
+          "reliable": true
+        }
+      }
+    },
+    "Marina_Bay": {
+      "fuel_s_per_lap": -0.04905056869219843,
+      "pace_offset_vs_soft": {
+        "SOFT": 0.0,
+        "MEDIUM": 0.1454263888797616,
+        "HARD": 0.11684065297732273
+      },
+      "compounds": {
+        "SOFT": {
+          "lin": 0.059407250443526564,
+          "quad": -0.00029153242536402623,
+          "max_age_p95": 25.0,
+          "n_laps": 339,
+          "reliable": true
+        },
+        "MEDIUM": {
+          "lin": 0.06093967727083463,
+          "quad": -0.0005240927276642068,
+          "max_age_p95": 33.0,
+          "n_laps": 1361,
+          "reliable": true
+        },
+        "HARD": {
+          "lin": 0.060675928880843805,
+          "quad": -0.00013077083068923078,
+          "max_age_p95": 38.0,
+          "n_laps": 1519,
+          "reliable": true
+        }
+      }
+    },
+    "Melbourne": {
+      "fuel_s_per_lap": -0.05290729800949116,
+      "pace_offset_vs_soft": {
+        "SOFT": 0.0,
+        "MEDIUM": 0.15964360155395127,
+        "HARD": 0.09915946059769061
+      },
+      "compounds": {
+        "SOFT": {
+          "lin": 0.06008762047463195,
+          "quad": -0.00017596168076682586,
+          "max_age_p95": 24.0,
+          "n_laps": 21,
+          "reliable": false
+        },
+        "MEDIUM": {
+          "lin": 0.061703774421253854,
+          "quad": -0.001078498132436113,
+          "max_age_p95": 29.0,
+          "n_laps": 285,
+          "reliable": false
+        },
+        "HARD": {
+          "lin": 0.0573264341624576,
+          "quad": -0.0010239693247216942,
+          "max_age_p95": 42.0,
+          "n_laps": 1342,
+          "reliable": true
+        }
+      }
+    },
+    "Mexico_City": {
+      "fuel_s_per_lap": -0.0462636790191071,
+      "pace_offset_vs_soft": {
+        "SOFT": 0.0,
+        "MEDIUM": 0.15571610645643014,
+        "HARD": 0.10595104140972654
+      },
+      "compounds": {
+        "SOFT": {
+          "lin": 0.06003042621252982,
+          "quad": -0.00011987459224347373,
+          "max_age_p95": 28.699999999999932,
+          "n_laps": 647,
+          "reliable": true
+        },
+        "MEDIUM": {
+          "lin": 0.06290072914956026,
+          "quad": -0.00041457083387591164,
+          "max_age_p95": 33.0,
+          "n_laps": 1462,
+          "reliable": true
+        },
+        "HARD": {
+          "lin": 0.05939170610069361,
+          "quad": -0.0003723166988587759,
+          "max_age_p95": 40.0,
+          "n_laps": 1210,
+          "reliable": true
+        }
+      }
+    },
+    "Miami": {
+      "fuel_s_per_lap": -0.05258672338422074,
+      "pace_offset_vs_soft": {
+        "SOFT": 0.0,
+        "MEDIUM": 0.1573170887986501,
+        "HARD": 0.10081384042417926
+      },
+      "compounds": {
+        "SOFT": {
+          "lin": 0.060089748501563275,
+          "quad": -0.00018425597257679574,
+          "max_age_p95": 24.0,
+          "n_laps": 42,
+          "reliable": false
+        },
+        "MEDIUM": {
+          "lin": 0.061389670433051206,
+          "quad": -0.0009538355911378373,
+          "max_age_p95": 26.0,
+          "n_laps": 773,
+          "reliable": true
+        },
+        "HARD": {
+          "lin": 0.057965745695261334,
+          "quad": -0.0006961624375333071,
+          "max_age_p95": 39.0,
+          "n_laps": 1201,
+          "reliable": true
+        }
+      }
+    },
+    "Miami_Gardens": {
+      "fuel_s_per_lap": -0.05036231855296362,
+      "pace_offset_vs_soft": {
+        "SOFT": 0.0,
+        "MEDIUM": 0.15864977977674927,
+        "HARD": 0.10006050933726994
+      },
+      "compounds": {
+        "SOFT": {
+          "lin": 0.0601029586130088,
+          "quad": -0.0001748596443681516,
+          "max_age_p95": 24.0,
+          "n_laps": 0,
+          "reliable": false
+        },
+        "MEDIUM": {
+          "lin": 0.06223019283424018,
+          "quad": -0.0008128503710350266,
+          "max_age_p95": 29.0,
+          "n_laps": 139,
+          "reliable": false
+        },
+        "HARD": {
+          "lin": 0.058562560693530046,
+          "quad": -0.000665245658544843,
+          "max_age_p95": 49.0,
+          "n_laps": 303,
+          "reliable": true
+        }
+      }
+    },
+    "Monaco": {
+      "fuel_s_per_lap": -0.04969056033774775,
+      "pace_offset_vs_soft": {
+        "SOFT": 0.0,
+        "MEDIUM": 0.16384781914129287,
+        "HARD": 0.09520532985431986
+      },
+      "compounds": {
+        "SOFT": {
+          "lin": 0.060287240639755935,
+          "quad": -0.0001347889930676995,
+          "max_age_p95": 24.0,
+          "n_laps": 101,
+          "reliable": false
+        },
+        "MEDIUM": {
+          "lin": 0.0628551415007018,
+          "quad": -0.0008384662606833414,
+          "max_age_p95": 60.0,
+          "n_laps": 1083,
+          "reliable": true
+        },
+        "HARD": {
+          "lin": 0.058462200739827656,
+          "quad": -0.0006463060729151727,
+          "max_age_p95": 64.0,
+          "n_laps": 2077,
+          "reliable": true
+        }
+      }
+    },
+    "Montr\u00e9al": {
+      "fuel_s_per_lap": -0.04886632594381839,
+      "pace_offset_vs_soft": {
+        "SOFT": 0.0,
+        "MEDIUM": 0.15616211498067695,
+        "HARD": 0.10253531430505049
+      },
+      "compounds": {
+        "SOFT": {
+          "lin": 0.06010255846464087,
+          "quad": -0.00017487522805811057,
+          "max_age_p95": 24.0,
+          "n_laps": 8,
+          "reliable": false
+        },
+        "MEDIUM": {
+          "lin": 0.06118800576860426,
+          "quad": -0.0009545267506206637,
+          "max_age_p95": 27.0,
+          "n_laps": 731,
+          "reliable": true
+        },
+        "HARD": {
+          "lin": 0.058040012580003034,
+          "quad": -0.0005830038184258335,
+          "max_age_p95": 45.0,
+          "n_laps": 1787,
+          "reliable": true
+        }
+      }
+    },
+    "Monza": {
+      "fuel_s_per_lap": -0.051252742168324275,
+      "pace_offset_vs_soft": {
+        "SOFT": 0.0,
+        "MEDIUM": 0.1577985476926165,
+        "HARD": 0.10009882797358248
+      },
+      "compounds": {
+        "SOFT": {
+          "lin": 0.06013578760393826,
+          "quad": -0.00017315991523746927,
+          "max_age_p95": 24.0,
+          "n_laps": 25,
+          "reliable": false
+        },
+        "MEDIUM": {
+          "lin": 0.06162731447678043,
+          "quad": -0.0008567577183218968,
+          "max_age_p95": 28.0,
+          "n_laps": 1043,
+          "reliable": true
+        },
+        "HARD": {
+          "lin": 0.05842616229439221,
+          "quad": -0.0006123626634948002,
+          "max_age_p95": 35.0,
+          "n_laps": 1643,
+          "reliable": true
+        }
+      }
+    },
+    "Sakhir": {
+      "fuel_s_per_lap": -0.05343016275910957,
+      "pace_offset_vs_soft": {
+        "SOFT": 0.0,
+        "MEDIUM": 0.15577213883205357,
+        "HARD": 0.09296746604671284
+      },
+      "compounds": {
+        "SOFT": {
+          "lin": 0.06170265455648611,
+          "quad": 8.466176766672823e-05,
+          "max_age_p95": 19.0,
+          "n_laps": 932,
+          "reliable": true
+        },
+        "MEDIUM": {
+          "lin": 0.06271882978775664,
+          "quad": -0.0005954087157526959,
+          "max_age_p95": 22.0,
+          "n_laps": 463,
+          "reliable": true
+        },
+        "HARD": {
+          "lin": 0.06003667027436498,
+          "quad": -0.0001640199811595803,
+          "max_age_p95": 23.0,
+          "n_laps": 1518,
+          "reliable": true
+        }
+      }
+    },
+    "Shanghai": {
+      "fuel_s_per_lap": -0.05417297637235282,
+      "pace_offset_vs_soft": {
+        "SOFT": 0.0,
+        "MEDIUM": 0.1628855793445464,
+        "HARD": 0.09576969455331685
+      },
+      "compounds": {
+        "SOFT": {
+          "lin": 0.060104244136391635,
+          "quad": -0.00017498750663225976,
+          "max_age_p95": 24.0,
+          "n_laps": 56,
+          "reliable": false
+        },
+        "MEDIUM": {
+          "lin": 0.06284583350931353,
+          "quad": -0.0006672499224663053,
+          "max_age_p95": 18.0,
+          "n_laps": 530,
+          "reliable": true
+        },
+        "HARD": {
+          "lin": 0.05788754820016681,
+          "quad": -0.0007754738835483292,
+          "max_age_p95": 37.0,
+          "n_laps": 1172,
+          "reliable": true
+        }
+      }
+    },
+    "Silverstone": {
+      "fuel_s_per_lap": -0.05292273213967198,
+      "pace_offset_vs_soft": {
+        "SOFT": 0.0,
+        "MEDIUM": 0.1593032558106674,
+        "HARD": 0.09977876002909401
+      },
+      "compounds": {
+        "SOFT": {
+          "lin": 0.05990815515544592,
+          "quad": -0.0002223128129047614,
+          "max_age_p95": 21.0,
+          "n_laps": 396,
+          "reliable": true
+        },
+        "MEDIUM": {
+          "lin": 0.06268992373087343,
+          "quad": -0.0006141323548803606,
+          "max_age_p95": 26.0,
+          "n_laps": 856,
+          "reliable": true
+        },
+        "HARD": {
+          "lin": 0.05849557994376462,
+          "quad": -0.0006169673760072466,
+          "max_age_p95": 38.0,
+          "n_laps": 155,
+          "reliable": false
+        }
+      }
+    },
+    "Spa-Francorchamps": {
+      "fuel_s_per_lap": -0.058458582693329264,
+      "pace_offset_vs_soft": {
+        "SOFT": 0.0,
+        "MEDIUM": 0.1749660228375564,
+        "HARD": 0.09040743787183785
+      },
+      "compounds": {
+        "SOFT": {
+          "lin": 0.059799827515047185,
+          "quad": -0.0001879378173174095,
+          "max_age_p95": 19.0,
+          "n_laps": 349,
+          "reliable": true
+        },
+        "MEDIUM": {
+          "lin": 0.06257274810394409,
+          "quad": -0.000949385872838766,
+          "max_age_p95": 29.0,
+          "n_laps": 1135,
+          "reliable": true
+        },
+        "HARD": {
+          "lin": 0.05699100145618086,
+          "quad": -0.0009130796964803216,
+          "max_age_p95": 27.0,
+          "n_laps": 582,
+          "reliable": true
+        }
+      }
+    },
+    "Spielberg": {
+      "fuel_s_per_lap": -0.03910404262573476,
+      "pace_offset_vs_soft": {
+        "SOFT": 0.0,
+        "MEDIUM": 0.14969894646358903,
+        "HARD": 0.10865032706331751
+      },
+      "compounds": {
+        "SOFT": {
+          "lin": 0.06007439384454603,
+          "quad": -0.00017941812421300388,
+          "max_age_p95": 24.0,
+          "n_laps": 61,
+          "reliable": false
+        },
+        "MEDIUM": {
+          "lin": 0.0630685104046625,
+          "quad": -0.00040763941129375557,
+          "max_age_p95": 25.0,
+          "n_laps": 1630,
+          "reliable": true
+        },
+        "HARD": {
+          "lin": 0.06061514778455815,
+          "quad": -9.659496499965384e-05,
+          "max_age_p95": 28.0,
+          "n_laps": 1758,
+          "reliable": true
+        }
+      }
+    },
+    "Suzuka": {
+      "fuel_s_per_lap": -0.05783454159848635,
+      "pace_offset_vs_soft": {
+        "SOFT": 0.0,
+        "MEDIUM": 0.16434444828319383,
+        "HARD": 0.09480966581042943
+      },
+      "compounds": {
+        "SOFT": {
+          "lin": 0.06010424092044445,
+          "quad": -0.00017245477421153838,
+          "max_age_p95": 24.0,
+          "n_laps": 166,
+          "reliable": false
+        },
+        "MEDIUM": {
+          "lin": 0.06304547524366433,
+          "quad": -0.0006178727488397253,
+          "max_age_p95": 21.0,
+          "n_laps": 874,
+          "reliable": true
+        },
+        "HARD": {
+          "lin": 0.05838470412399895,
+          "quad": -0.0006683587821504243,
+          "max_age_p95": 27.0,
+          "n_laps": 1425,
+          "reliable": true
+        }
+      }
+    },
+    "S\u00e3o_Paulo": {
+      "fuel_s_per_lap": -0.04415417768415781,
+      "pace_offset_vs_soft": {
+        "SOFT": 0.0,
+        "MEDIUM": 0.15809334249541948,
+        "HARD": 0.09966535093181682
+      },
+      "compounds": {
+        "SOFT": {
+          "lin": 0.060382613412249195,
+          "quad": -7.120732746136477e-05,
+          "max_age_p95": 24.0,
+          "n_laps": 817,
+          "reliable": true
+        },
+        "MEDIUM": {
+          "lin": 0.06322075663542645,
+          "quad": -0.0003907158793040838,
+          "max_age_p95": 31.700000000000045,
+          "n_laps": 1147,
+          "reliable": true
+        },
+        "HARD": {
+          "lin": 0.05860083046119302,
+          "quad": -0.0005800902118638999,
+          "max_age_p95": 38.0,
+          "n_laps": 44,
+          "reliable": false
+        }
+      }
+    },
+    "Yas_Island": {
+      "fuel_s_per_lap": -0.05128463424614806,
+      "pace_offset_vs_soft": {
+        "SOFT": 0.0,
+        "MEDIUM": 0.1569695639005359,
+        "HARD": 0.10081193155288351
+      },
+      "compounds": {
+        "SOFT": {
+          "lin": 0.06028924071571587,
+          "quad": -0.00013657014565075337,
+          "max_age_p95": 24.0,
+          "n_laps": 41,
+          "reliable": false
+        },
+        "MEDIUM": {
+          "lin": 0.06278935077947431,
+          "quad": -0.0005819335115923956,
+          "max_age_p95": 21.0,
+          "n_laps": 898,
+          "reliable": true
+        },
+        "HARD": {
+          "lin": 0.05919539433051927,
+          "quad": -0.0003608069174963949,
+          "max_age_p95": 34.0,
+          "n_laps": 2127,
+          "reliable": true
+        }
+      }
+    },
+    "Zandvoort": {
+      "fuel_s_per_lap": -0.046822040657897475,
+      "pace_offset_vs_soft": {
+        "SOFT": 0.0,
+        "MEDIUM": 0.15997004808449874,
+        "HARD": 0.09677410846678418
+      },
+      "compounds": {
+        "SOFT": {
+          "lin": 0.059436863968049335,
+          "quad": -0.00040936443397653446,
+          "max_age_p95": 31.0,
+          "n_laps": 876,
+          "reliable": true
+        },
+        "MEDIUM": {
+          "lin": 0.0625144330503244,
+          "quad": -0.0006534022252640786,
+          "max_age_p95": 26.0,
+          "n_laps": 960,
+          "reliable": true
+        },
+        "HARD": {
+          "lin": 0.05853326683217478,
+          "quad": -0.0004416479611110154,
+          "max_age_p95": 41.0,
+          "n_laps": 1308,
+          "reliable": true
+        }
+      }
+    }
+  },
+  "lambda": 10000,
+  "validation": {
+    "best_rmse_by_circuit": 0.7032192325553996,
+    "rmse_pooled": 0.7193880915312695,
+    "rmse_no_model": 1.0297948311805065
+  }
+}

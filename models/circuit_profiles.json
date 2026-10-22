@@ -1,0 +1,901 @@
+{
+  "circuits": {
+    "Austin": {
+      "years": [
+        2023,
+        2024,
+        2025
+      ],
+      "race_laps": 56,
+      "typical_lap_s": 100.16,
+      "pit_loss_s": 21.26524999999998,
+      "pit_loss_stops_used": 77,
+      "stint_caps": {
+        "SOFT": 30,
+        "MEDIUM": 35,
+        "HARD": 41
+      },
+      "stints_seen": {
+        "SOFT": 22,
+        "MEDIUM": 74,
+        "HARD": 44
+      },
+      "actual": {
+        "year": 2025,
+        "stops": {
+          "0": 1,
+          "1": 17,
+          "2": 2
+        },
+        "sequences": {
+          "MS": 13,
+          "SM": 2,
+          "HMS": 1,
+          "SMS": 1,
+          "HS": 1
+        }
+      }
+    },
+    "Baku": {
+      "years": [
+        2023,
+        2024,
+        2025
+      ],
+      "race_laps": 51,
+      "typical_lap_s": 107.157,
+      "pit_loss_s": 21.465999999999994,
+      "pit_loss_stops_used": 38,
+      "stint_caps": {
+        "SOFT": 8,
+        "MEDIUM": 30,
+        "HARD": 51
+      },
+      "stints_seen": {
+        "SOFT": 7,
+        "MEDIUM": 56,
+        "HARD": 63
+      },
+      "actual": {
+        "year": 2025,
+        "stops": {
+          "0": 1,
+          "1": 17,
+          "2": 2
+        },
+        "sequences": {
+          "MH": 9,
+          "HM": 8,
+          "MMH": 1,
+          "HMH": 1,
+          "M": 1
+        }
+      }
+    },
+    "Barcelona": {
+      "years": [
+        2023,
+        2024,
+        2025
+      ],
+      "race_laps": 66,
+      "typical_lap_s": 80.666,
+      "pit_loss_s": 23.165750000000003,
+      "pit_loss_stops_used": 123,
+      "stint_caps": {
+        "SOFT": 26,
+        "MEDIUM": 33,
+        "HARD": 37
+      },
+      "stints_seen": {
+        "SOFT": 105,
+        "MEDIUM": 57,
+        "HARD": 36
+      },
+      "actual": {
+        "year": 2025,
+        "stops": {
+          "2": 5,
+          "3": 12,
+          "4": 2
+        },
+        "sequences": {
+          "SMSS": 8,
+          "SMS": 3,
+          "SMMS": 2,
+          "SSMS": 2,
+          "SSS": 1
+        }
+      }
+    },
+    "Budapest": {
+      "years": [
+        2023,
+        2024,
+        2025
+      ],
+      "race_laps": 70,
+      "typical_lap_s": 84.379,
+      "pit_loss_s": 21.094499999999996,
+      "pit_loss_stops_used": 104,
+      "stint_caps": {
+        "SOFT": 18,
+        "MEDIUM": 41,
+        "HARD": 43
+      },
+      "stints_seen": {
+        "SOFT": 14,
+        "MEDIUM": 69,
+        "HARD": 82
+      },
+      "actual": {
+        "year": 2025,
+        "stops": {
+          "1": 11,
+          "2": 9
+        },
+        "sequences": {
+          "MH": 9,
+          "MHH": 5,
+          "HM": 2,
+          "SMH": 1,
+          "SMM": 1
+        }
+      }
+    },
+    "Imola": {
+      "years": [
+        2024,
+        2025
+      ],
+      "race_laps": 63,
+      "typical_lap_s": 81.77924999999999,
+      "pit_loss_s": 28.201000000000022,
+      "pit_loss_stops_used": 35,
+      "stint_caps": {
+        "SOFT": 10,
+        "MEDIUM": 36,
+        "HARD": 52
+      },
+      "stints_seen": {
+        "SOFT": 3,
+        "MEDIUM": 47,
+        "HARD": 54
+      },
+      "actual": {
+        "year": 2025,
+        "stops": {
+          "1": 4,
+          "2": 15,
+          "3": 1
+        },
+        "sequences": {
+          "MHH": 11,
+          "HM": 3,
+          "MHM": 2,
+          "HMH": 2,
+          "MHHM": 1
+        }
+      }
+    },
+    "Jeddah": {
+      "years": [
+        2023,
+        2024,
+        2025
+      ],
+      "race_laps": 50,
+      "typical_lap_s": 94.3965,
+      "pit_loss_s": 20.770750000000007,
+      "pit_loss_stops_used": 26,
+      "stint_caps": {
+        "SOFT": 18,
+        "MEDIUM": 36,
+        "HARD": 47
+      },
+      "stints_seen": {
+        "SOFT": 9,
+        "MEDIUM": 59,
+        "HARD": 54
+      },
+      "actual": {
+        "year": 2025,
+        "stops": {
+          "0": 2,
+          "1": 17,
+          "2": 1
+        },
+        "sequences": {
+          "MH": 13,
+          "HM": 4,
+          "M": 2,
+          "MHH": 1
+        }
+      }
+    },
+    "Las_Vegas": {
+      "years": [
+        2023,
+        2024,
+        2025
+      ],
+      "race_laps": 50,
+      "typical_lap_s": 98.422,
+      "pit_loss_s": 22.518999999999977,
+      "pit_loss_stops_used": 69,
+      "stint_caps": {
+        "SOFT": 12,
+        "MEDIUM": 26,
+        "HARD": 36
+      },
+      "stints_seen": {
+        "SOFT": 6,
+        "MEDIUM": 61,
+        "HARD": 87
+      },
+      "actual": {
+        "year": 2025,
+        "stops": {
+          "0": 1,
+          "1": 15,
+          "2": 3,
+          "3": 1
+        },
+        "sequences": {
+          "MH": 10,
+          "HM": 4,
+          "MHH": 2,
+          "HMHM": 1,
+          "SH": 1
+        }
+      }
+    },
+    "Lusail": {
+      "years": [
+        2023,
+        2024,
+        2025
+      ],
+      "race_laps": 57,
+      "typical_lap_s": 86.1895,
+      "pit_loss_s": 27.526624999999996,
+      "pit_loss_stops_used": 74,
+      "stint_caps": {
+        "SOFT": 22,
+        "MEDIUM": 37,
+        "HARD": 27
+      },
+      "stints_seen": {
+        "SOFT": 16,
+        "MEDIUM": 107,
+        "HARD": 91
+      },
+      "actual": {
+        "year": 2025,
+        "stops": {
+          "0": 1,
+          "2": 16,
+          "3": 3
+        },
+        "sequences": {
+          "MMH": 11,
+          "HMM": 2,
+          "MMHH": 1,
+          "MMS": 1,
+          "MHM": 1
+        }
+      }
+    },
+    "Marina_Bay": {
+      "years": [
+        2023,
+        2024,
+        2025
+      ],
+      "race_laps": 62,
+      "typical_lap_s": 98.526,
+      "pit_loss_s": 28.093999999999994,
+      "pit_loss_stops_used": 47,
+      "stint_caps": {
+        "SOFT": 30,
+        "MEDIUM": 45,
+        "HARD": 49
+      },
+      "stints_seen": {
+        "SOFT": 24,
+        "MEDIUM": 57,
+        "HARD": 49
+      },
+      "actual": {
+        "year": 2025,
+        "stops": {
+          "1": 17,
+          "2": 3
+        },
+        "sequences": {
+          "MH": 8,
+          "MS": 3,
+          "SM": 3,
+          "MHS": 3,
+          "SH": 3
+        }
+      }
+    },
+    "Melbourne": {
+      "years": [
+        2023,
+        2024,
+        2025
+      ],
+      "race_laps": 58,
+      "typical_lap_s": 82.632,
+      "pit_loss_s": 15.287714285714287,
+      "pit_loss_stops_used": 37,
+      "stint_caps": {
+        "SOFT": 9,
+        "MEDIUM": 40,
+        "HARD": 50
+      },
+      "stints_seen": {
+        "SOFT": 42,
+        "MEDIUM": 41,
+        "HARD": 72
+      },
+      "actual": {
+        "year": 2024,
+        "stops": {
+          "0": 1,
+          "1": 1,
+          "2": 16,
+          "3": 1
+        },
+        "sequences": {
+          "MHH": 12,
+          "HMH": 2,
+          "SHH": 2,
+          "SH": 1,
+          "MHHH": 1
+        }
+      }
+    },
+    "Mexico_City": {
+      "years": [
+        2023,
+        2024,
+        2025
+      ],
+      "race_laps": 71,
+      "typical_lap_s": 82.702,
+      "pit_loss_s": 22.655749999999983,
+      "pit_loss_stops_used": 57,
+      "stint_caps": {
+        "SOFT": 38,
+        "MEDIUM": 39,
+        "HARD": 50
+      },
+      "stints_seen": {
+        "SOFT": 32,
+        "MEDIUM": 64,
+        "HARD": 50
+      },
+      "actual": {
+        "year": 2025,
+        "stops": {
+          "0": 1,
+          "1": 12,
+          "2": 6,
+          "3": 1
+        },
+        "sequences": {
+          "SMS": 6,
+          "MS": 5,
+          "SM": 4,
+          "HS": 2,
+          "S": 1
+        }
+      }
+    },
+    "Miami": {
+      "years": [
+        2023,
+        2024
+      ],
+      "race_laps": 57,
+      "typical_lap_s": 92.89875,
+      "pit_loss_s": 20.127374999999986,
+      "pit_loss_stops_used": 34,
+      "stint_caps": {
+        "SOFT": 29,
+        "MEDIUM": 31,
+        "HARD": 54
+      },
+      "stints_seen": {
+        "SOFT": 5,
+        "MEDIUM": 44,
+        "HARD": 39
+      },
+      "actual": {
+        "year": 2024,
+        "stops": {
+          "1": 13,
+          "2": 6,
+          "3": 1
+        },
+        "sequences": {
+          "MH": 9,
+          "MHM": 4,
+          "HM": 3,
+          "MHS": 1,
+          "SHM": 1
+        }
+      }
+    },
+    "Miami_Gardens": {
+      "years": [
+        2025
+      ],
+      "race_laps": 57,
+      "typical_lap_s": 91.277,
+      "pit_loss_s": 28.142666666666656,
+      "pit_loss_stops_used": 14,
+      "stint_caps": {
+        "SOFT": 15,
+        "MEDIUM": 27,
+        "HARD": 35
+      },
+      "stints_seen": {
+        "SOFT": 0,
+        "MEDIUM": 18,
+        "HARD": 19
+      },
+      "actual": {
+        "year": 2025,
+        "stops": {
+          "0": 1,
+          "1": 18
+        },
+        "sequences": {
+          "MH": 12,
+          "HM": 6,
+          "H": 1
+        }
+      }
+    },
+    "Monaco": {
+      "years": [
+        2023,
+        2024,
+        2025
+      ],
+      "race_laps": 78,
+      "typical_lap_s": 78.47,
+      "pit_loss_s": 17.69542857142858,
+      "pit_loss_stops_used": 47,
+      "stint_caps": {
+        "SOFT": 34,
+        "MEDIUM": 66,
+        "HARD": 80
+      },
+      "stints_seen": {
+        "SOFT": 9,
+        "MEDIUM": 56,
+        "HARD": 67
+      },
+      "actual": {
+        "year": 2025,
+        "stops": {
+          "0": 1,
+          "1": 3,
+          "2": 16
+        },
+        "sequences": {
+          "MMH": 2,
+          "HMH": 2,
+          "HM": 2,
+          "HMM": 2,
+          "MSH": 2
+        }
+      }
+    },
+    "Montréal": {
+      "years": [
+        2023,
+        2024,
+        2025
+      ],
+      "race_laps": 70,
+      "typical_lap_s": 77.432,
+      "pit_loss_s": 17.298428571428573,
+      "pit_loss_stops_used": 62,
+      "stint_caps": {
+        "SOFT": 8,
+        "MEDIUM": 34,
+        "HARD": 57
+      },
+      "stints_seen": {
+        "SOFT": 14,
+        "MEDIUM": 77,
+        "HARD": 87
+      },
+      "actual": {
+        "year": 2025,
+        "stops": {
+          "1": 2,
+          "2": 1,
+          "4": 8,
+          "5": 8,
+          "6": 1
+        },
+        "sequences": {
+          "MHHHHH": 5,
+          "HMMMM": 5,
+          "MHSSS": 2,
+          "MH": 1,
+          "MHHHHHH": 1
+        }
+      }
+    },
+    "Monza": {
+      "years": [
+        2023,
+        2024,
+        2025
+      ],
+      "race_laps": 53,
+      "typical_lap_s": 84.86,
+      "pit_loss_s": 25.32912499999999,
+      "pit_loss_stops_used": 72,
+      "stint_caps": {
+        "SOFT": 11,
+        "MEDIUM": 39,
+        "HARD": 46
+      },
+      "stints_seen": {
+        "SOFT": 7,
+        "MEDIUM": 61,
+        "HARD": 66
+      },
+      "actual": {
+        "year": 2025,
+        "stops": {
+          "0": 1,
+          "1": 19
+        },
+        "sequences": {
+          "MH": 11,
+          "HS": 3,
+          "HM": 2,
+          "MS": 2,
+          "M": 1
+        }
+      }
+    },
+    "Sakhir": {
+      "years": [
+        2023,
+        2024,
+        2025
+      ],
+      "race_laps": 57,
+      "typical_lap_s": 98.342,
+      "pit_loss_s": 24.074749999999995,
+      "pit_loss_stops_used": 108,
+      "stint_caps": {
+        "SOFT": 27,
+        "MEDIUM": 31,
+        "HARD": 31
+      },
+      "stints_seen": {
+        "SOFT": 83,
+        "MEDIUM": 27,
+        "HARD": 85
+      },
+      "actual": {
+        "year": 2025,
+        "stops": {
+          "2": 18,
+          "3": 2
+        },
+        "sequences": {
+          "SMH": 5,
+          "MMH": 3,
+          "SMM": 3,
+          "SHM": 2,
+          "SMS": 2
+        }
+      }
+    },
+    "Shanghai": {
+      "years": [
+        2024,
+        2025
+      ],
+      "race_laps": 56,
+      "typical_lap_s": 99.60849999999999,
+      "pit_loss_s": 23.07799999999999,
+      "pit_loss_stops_used": 44,
+      "stint_caps": {
+        "SOFT": 22,
+        "MEDIUM": 24,
+        "HARD": 47
+      },
+      "stints_seen": {
+        "SOFT": 6,
+        "MEDIUM": 48,
+        "HARD": 51
+      },
+      "actual": {
+        "year": 2025,
+        "stops": {
+          "0": 1,
+          "1": 14,
+          "2": 4,
+          "3": 1
+        },
+        "sequences": {
+          "MH": 12,
+          "MHH": 3,
+          "HM": 2,
+          "M": 1,
+          "HMH": 1
+        }
+      }
+    },
+    "Silverstone": {
+      "years": [
+        2023,
+        2024,
+        2025
+      ],
+      "race_laps": 52,
+      "typical_lap_s": 93.101,
+      "pit_loss_s": 27.314250000000015,
+      "pit_loss_stops_used": 25,
+      "stint_caps": {
+        "SOFT": 27,
+        "MEDIUM": 35,
+        "HARD": 30
+      },
+      "stints_seen": {
+        "SOFT": 36,
+        "MEDIUM": 57,
+        "HARD": 16
+      },
+      "actual": {
+        "year": 2023,
+        "stops": {
+          "0": 2,
+          "1": 13,
+          "2": 4,
+          "3": 1
+        },
+        "sequences": {
+          "MS": 8,
+          "MH": 3,
+          "HS": 1,
+          "SMS": 1,
+          "HMS": 1
+        }
+      }
+    },
+    "Spa-Francorchamps": {
+      "years": [
+        2023,
+        2024,
+        2025
+      ],
+      "race_laps": 44,
+      "typical_lap_s": 109.04,
+      "pit_loss_s": 18.406749999999988,
+      "pit_loss_stops_used": 69,
+      "stint_caps": {
+        "SOFT": 26,
+        "MEDIUM": 34,
+        "HARD": 34
+      },
+      "stints_seen": {
+        "SOFT": 30,
+        "MEDIUM": 89,
+        "HARD": 32
+      },
+      "actual": {
+        "year": 2024,
+        "stops": {
+          "0": 1,
+          "1": 5,
+          "2": 13,
+          "3": 1
+        },
+        "sequences": {
+          "MHH": 6,
+          "MH": 5,
+          "MHM": 3,
+          "MMH": 2,
+          "MMHS": 1
+        }
+      }
+    },
+    "Spielberg": {
+      "years": [
+        2023,
+        2024,
+        2025
+      ],
+      "race_laps": 71,
+      "typical_lap_s": 70.72,
+      "pit_loss_s": 21.32012500000002,
+      "pit_loss_stops_used": 98,
+      "stint_caps": {
+        "SOFT": 17,
+        "MEDIUM": 32,
+        "HARD": 37
+      },
+      "stints_seen": {
+        "SOFT": 10,
+        "MEDIUM": 113,
+        "HARD": 77
+      },
+      "actual": {
+        "year": 2025,
+        "stops": {
+          "0": 3,
+          "1": 3,
+          "2": 13,
+          "3": 1
+        },
+        "sequences": {
+          "MHM": 4,
+          "M": 3,
+          "MH": 2,
+          "SHM": 2,
+          "MMH": 2
+        }
+      }
+    },
+    "Suzuka": {
+      "years": [
+        2023,
+        2024,
+        2025
+      ],
+      "race_laps": 53,
+      "typical_lap_s": 97.42,
+      "pit_loss_s": 22.670999999999992,
+      "pit_loss_stops_used": 83,
+      "stint_caps": {
+        "SOFT": 22,
+        "MEDIUM": 27,
+        "HARD": 34
+      },
+      "stints_seen": {
+        "SOFT": 34,
+        "MEDIUM": 72,
+        "HARD": 72
+      },
+      "actual": {
+        "year": 2025,
+        "stops": {
+          "1": 19,
+          "2": 1
+        },
+        "sequences": {
+          "MH": 13,
+          "HM": 3,
+          "MS": 2,
+          "SH": 1,
+          "SHM": 1
+        }
+      }
+    },
+    "São_Paulo": {
+      "years": [
+        2023,
+        2024,
+        2025
+      ],
+      "race_laps": 71,
+      "typical_lap_s": 76.181,
+      "pit_loss_s": 22.280749999999998,
+      "pit_loss_stops_used": 66,
+      "stint_caps": {
+        "SOFT": 27,
+        "MEDIUM": 39,
+        "HARD": 31
+      },
+      "stints_seen": {
+        "SOFT": 83,
+        "MEDIUM": 55,
+        "HARD": 6
+      },
+      "actual": {
+        "year": 2025,
+        "stops": {
+          "0": 2,
+          "1": 2,
+          "2": 13,
+          "3": 3
+        },
+        "sequences": {
+          "MSM": 5,
+          "SMM": 5,
+          "HMM": 3,
+          "S": 1,
+          "SHMM": 1
+        }
+      }
+    },
+    "Yas_Island": {
+      "years": [
+        2023,
+        2024,
+        2025
+      ],
+      "race_laps": 58,
+      "typical_lap_s": 89.65299999999999,
+      "pit_loss_s": 22.637,
+      "pit_loss_stops_used": 85,
+      "stint_caps": {
+        "SOFT": 27,
+        "MEDIUM": 28,
+        "HARD": 46
+      },
+      "stints_seen": {
+        "SOFT": 6,
+        "MEDIUM": 63,
+        "HARD": 83
+      },
+      "actual": {
+        "year": 2025,
+        "stops": {
+          "1": 13,
+          "2": 7
+        },
+        "sequences": {
+          "MH": 9,
+          "HM": 4,
+          "SHM": 3,
+          "MHM": 3,
+          "MHH": 1
+        }
+      }
+    },
+    "Zandvoort": {
+      "years": [
+        2023,
+        2024,
+        2025
+      ],
+      "race_laps": 72,
+      "typical_lap_s": 76.308,
+      "pit_loss_s": 22.627999999999986,
+      "pit_loss_stops_used": 49,
+      "stint_caps": {
+        "SOFT": 39,
+        "MEDIUM": 34,
+        "HARD": 54
+      },
+      "stints_seen": {
+        "SOFT": 72,
+        "MEDIUM": 48,
+        "HARD": 43
+      },
+      "actual": {
+        "year": 2025,
+        "stops": {
+          "0": 1,
+          "1": 3,
+          "2": 12,
+          "3": 3,
+          "4": 1
+        },
+        "sequences": {
+          "MHS": 5,
+          "MHH": 4,
+          "MHSS": 2,
+          "HM": 2,
+          "SHMS": 1
+        }
+      }
+    }
+  }
+}
